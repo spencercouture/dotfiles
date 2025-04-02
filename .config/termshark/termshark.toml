@@ -1,0 +1,16 @@
+[main]
+altview2vertical = ''
+auto-scroll = true
+color-tsharks = ['/opt/homebrew/bin/tshark']
+dark-mode = true
+disable-shark-fin = true
+key-mappings = ['J jjjjjjjjjjjjjjjjjjjj', 'K kkkkkkkkkkkkkkkkkkkk']
+last-used-tshark = '/opt/homebrew/bin/tshark'
+lastupdate = '2025-04-01 13:46:17.673059 -0400 EDT m=+0.168214459'
+layout = 'mainview'
+mainview = '[{"col1":4,"col2":6,"adjust":2}]'
+packet-colors = true
+recent-files = []
+recent-filters = []
+validated-tsharks = ['/opt/homebrew/bin/tshark']
+
