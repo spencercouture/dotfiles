@@ -1,0 +1,19 @@
+cmd - j : yabai -m window --focus south
+cmd - k : yabai -m window --focus north
+cmd - h : yabai -m window --focus west
+cmd - l : yabai -m window --focus east
+
+cmd + alt - r : yabai -m space --rotate 270
+cmd + alt - y : yabai -m space --mirror y-axis
+cmd + alt - x : yabai -m space --mirror x-axis
+cmd + alt - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
+
+cmd + alt - m : yabai -m window --toggle zoom-fullscreen
+cmd + alt - e : yabai -m space --balance
+
+cmd + shift - j : yabai -m display --focus south
+cmd + shift - k : yabai -m display --focus north
+
+cmd + shift + lalt - j : yabai -m window --display south && yabai -m display --focus south
+cmd + shift + lalt - k : yabai -m window --display north && yabai -m display --focus north
+
