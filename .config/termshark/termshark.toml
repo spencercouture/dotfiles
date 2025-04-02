@@ -1,0 +1,17 @@
+[main]
+altview2vertical = ''
+auto-scroll = true
+color-tsharks = ['/opt/homebrew/bin/tshark']
+dark-mode = true
+disable-shark-fin = true
+key-mappings = ['J jjjjjjjjjjjjjjjjjjjj', 'K kkkkkkkkkkkkkkkkkkkk']
+last-used-tshark = '/opt/homebrew/bin/tshark'
+lastupdate = '2025-04-01 13:46:17.673059 -0400 EDT m=+0.168214459'
+layout = 'mainview'
+mainview = '[{"col1":4,"col2":6,"adjust":2}]'
+packet-colors = true
+recent-files = ['/Users/scouture/IOL-INTACT-Workspace/dhcpv6-newdev/pcaps/DHCPv6_2_1_01e-Net0-20240801144238.pcapng', '/Users/scouture/Downloads/example', '/Users/scouture/Downloads/DHCPv6_IOP_1_10a-Net0-20240905105721.pcapng', '/Users/scouture/Downloads/IOL_INTACT_Debug_2024_06_06-1/pcaps/DHCPv6_1_2_05c-Net0-20240606102716.pcapng', '/Users/scouture/Downloads/IOL_INTACT_Debug_2024_06_06-1/pcaps/DHCPv6_1_2_05c-Net0-20240606082507.pcapng', '/Users/scouture/Downloads/IOL_INTACT_Debug_2024_06_05-3/pcaps/DHCPv6_2_1_14-Net0-20240605125031.pcapng', '/Users/scouture/Downloads/IOL_INTACT_Debug_2024_06_05-2/pcaps/DHCPv6_2_1_09c-Net0-20240605104715.pcapng', '/Users/scouture/Downloads/IOL_INTACT_Debug_2024_06_05/pcaps/DHCPv6_5_1_08c-Net0-20240603154134.pcapng', '/Users/scouture/Downloads/IOL_INTACT_Debug_2024_06_05/pcaps/DHCPv6_5_1_08b-Net0-20240603154121.pcapng', '/Users/scouture/Downloads/IOL_INTACT_Debug_2024_06_05/pcaps/DHCPv6_5_1_08a-Net0-20240603154108.pcapng', '/Users/scouture/IOL-INTACT-Workspace/dhcpv6-dev/pcaps/DHCPv6_3_1_01b-Net0-20240530115206.pcapng', '/Users/scouture/IOL-INTACT-Workspace/dhcpv6-dev/pcaps/DHCPv6_3_1_01b-Net0-20240530112038.pcapng', '/Users/scouture/Documents/ipv6-dhcpv6/.test.2259', '/Users/scouture/IOL-INTACT-Workspace/dhcp-windows/pcaps/DHCPv6_1_2_06e-Net0-20240502115917.pcapng', '/Users/scouture/IOL-INTACT-Workspace/dhcpv6-dev/pcaps/DHCPv6_2_1_01b-Net0-20240426144532.pcapng']
+recent-filters = ['!tcp && ipv6', '!tcp', 'dhcpv6', 'ipv6 && !tcp', 'ipv6', 'ipv6 && udp', 'dns', 'http', '!dns', ' !dns', 'udp.dstport == 547', 'dhcpv6.msgtype == 7', 'mdns', '!mdns']
+theme-truecolor = 'chalk'
+validated-tsharks = ['/opt/homebrew/bin/tshark']
+
