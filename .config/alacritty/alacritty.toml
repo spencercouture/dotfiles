@@ -1,0 +1,38 @@
+# import = [ "~/.config/alacritty/kanagawa.nvim/extras/alacritty_kanagawa.toml" ]
+#import = [ "~/.config/alacritty/catppuccin-mocha.toml" ]
+
+[window]
+decorations = "None"
+startup_mode = "Maximized"
+option_as_alt = "OnlyRight"
+
+[env]
+TERM = "xterm-256color"
+# import = "~/.config/alacritty/themes/base16-alacritty/colors/base16-default-dark-256.toml"
+# import = "~/.config/alacritty/catppuccin-mocha.toml"
+
+
+[terminal.shell]
+program = "/usr/bin/bash"
+args = ["--login"] 
+
+# program = "/opt/homebrew/bin/tmux"
+
+[font]
+normal = { family = "FiraMono Nerd Font Mono", style = "Regular" }
+size = 14
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+]
+
+[general]
+#import = ["~/.config/alacritty/themes/rose-pine-alacritty/dist/rose-pine.toml"]
+import = ["~/.config/alacritty/themes/base16-alacritty/colors/base16-chalk-256.toml"]
+
+[terminal]
