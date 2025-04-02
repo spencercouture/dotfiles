@@ -1,0 +1,16 @@
+[main]
+altview2vertical = ''
+auto-scroll = true
+color-tsharks = ['/usr/bin/tshark']
+dark-mode = true
+disable-shark-fin = true
+key-mappings = ['J jjjjjjjjjjjjjjjjjjjj', 'K kkkkkkkkkkkkkkkkkkkk']
+last-used-tshark = '/usr/bin/tshark'
+layout = 'mainview'
+mainview = '[{"col1":4,"col2":6,"adjust":2}]'
+packet-colors = true
+recent-files = []
+recent-filters = []
+theme-truecolor = 'chalk'
+validated-tsharks = ['/usr/bin/tshark']
+
