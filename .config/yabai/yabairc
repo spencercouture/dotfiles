@@ -1,0 +1,32 @@
+# bsp / stack / float
+yabai -m config layout bsp
+
+# does something with child windows?
+yabai -m config window_placement second_child
+
+# padding
+# yabai -m config top_padding 6
+# yabai -m config bottom_padding 6
+# yabai -m config left_padding 6 
+# yabai -m config right_padding 6
+# yabai -m config window_gap 6
+
+# mouse? maybe del
+yabai -m config mouse_follows_focus on
+
+yabai -m config mouse_modifier alt
+
+# left click+drag
+yabai -m config mouse_action1 move
+# right click+drag
+yabai -m config mouse_action2 resize
+
+yabai -m config mouse_drop_action swap
+
+# disable apps
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^IOL INTACT" manage=off
+yabai -m rule --add app="^Bitwarden" manage=off
+yabai -m rule --add app="^Calculator$" manage=off
+
+borders active_color=0xff202020 inactive_color=0xff202020 width=2.0 &
