@@ -6,3 +6,5 @@ alias grep='grep --color=always'
 ldir() {
   ls -rt "${1:-.}" | tail -n1
 }
+
+alias tmux='tmux -u'
