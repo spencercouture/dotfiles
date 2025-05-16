@@ -7,3 +7,10 @@ end, { desc = "Compare 2 files" })
 vim.keymap.set("n", "<leader>sf", function()
   require("telescope").extensions.diff.diff_current({ hidden = true })
 end, { desc = "Compare file with current" })
+
+-- Setup our Vimwiki keybinds
+vim.keymap.set("n", "<leader>wi", "<Plug>VimwikiIndex", {noremap = false, silent = true})
+vim.keymap.set({"n", "v"}, "<leader>wD", "<Plug>VimwikiDeleteFile", {noremap = false, silent = true})
+vim.keymap.set({"n", "v"}, "<C-Space>", "<Plug>VimwikiToggleListItem", {noremap = false, silent = true})
+vim.keymap.set({"n", "v"}, "<Backspace>", "<Plug>VimwikiGoBackLink", {noremap = false, silent = true})
+

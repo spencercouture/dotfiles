@@ -40,10 +40,6 @@ return {
   {
     -- The plugin location on GitHub
     "vimwiki/vimwiki",
-    -- The event that triggers the plugin
-    event = "BufEnter *.md",
-    -- The keys that trigger the plugin
-    keys = { "<leader>wi", "<leader>wt" },
     -- The configuration for the plugin
     init = function()
       vim.g.vimwiki_list = {
