@@ -9,3 +9,5 @@ vim.g.autoformat = false
 
 vim.g.snacks_animate = false
 vim.g.lazyvim_picker = "snacks"
+-- Disables highlighting a lowercased word after punctuation
+vim.o.spellcapcheck = ""
