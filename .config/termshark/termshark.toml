@@ -1,7 +1,7 @@
 [main]
 altview2vertical = ''
 auto-scroll = true
-color-tsharks = ['/opt/homebrew/bin/tshark']
+color-tsharks = ['/usr/bin/tshark']
 dark-mode = true
 disable-shark-fin = true
 key-mappings = ['J jjjjjjjjjjjjjjjjjjjj', 'K kkkkkkkkkkkkkkkkkkkk']
@@ -13,5 +13,5 @@ packet-colors = true
 recent-files = []
 recent-filters = []
 theme-truecolor = 'chalk'
-validated-tsharks = ['/opt/homebrew/bin/tshark']
+validated-tsharks = ['/opt/homebrew/bin/tshark', '/usr/bin/tshark']
 
