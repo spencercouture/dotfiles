@@ -12,5 +12,6 @@ mainview = '[{"col1":4,"col2":6,"adjust":2}]'
 packet-colors = true
 recent-files = []
 recent-filters = []
+theme-truecolor = 'chalk'
 validated-tsharks = ['/opt/homebrew/bin/tshark']
 
