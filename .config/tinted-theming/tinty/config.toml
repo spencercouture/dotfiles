@@ -1,0 +1,29 @@
+# Global settings
+shell = "bash -c '{}'"
+default-scheme = "base16-chalk"
+preferred-schemes = ["base16-chalk", "base16-da-one-ocean"]
+
+# Item configurations
+
+# nvim works for free (due to our current config)
+
+[[items]]
+name = "alacritty"
+path = "~/.config/alacritty/themes/base16-alacritty"
+themes-dir = "colors"
+hook = "cp \"$TINTY_THEME_FILE_PATH\" ~/.config/alacritty/colors.toml"
+supported-systems = ["base16"]
+
+[[items]]
+name = "termshark"
+path = "https://github.com/spencercouture/tinted-termshark.git"
+themes-dir = "colors"
+hook = "cp \"$TINTY_THEME_FILE_PATH\" ~/.config/termshark/themes/colors-256.toml"
+supported-systems = ["base16"]
+
+[[items]]
+name = "tmux"
+path = "https://github.com/spencercouture/tinted-tmux-pine.git"
+themes-dir = "colors"
+hook = "tmux run 2> /dev/null && bash \"$TINTY_THEME_FILE_PATH\""
+supported-systems = ["base16"]
