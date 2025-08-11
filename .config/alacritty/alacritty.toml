@@ -33,6 +33,6 @@ bindings = [
 
 [general]
 #import = ["~/.config/alacritty/themes/rose-pine-alacritty/dist/rose-pine.toml"]
-import = ["~/.config/alacritty/themes/base16-alacritty/colors/base16-chalk-256.toml"]
+import = ["~/.config/alacritty/colors.toml"]
 
 [terminal]
