@@ -1,4 +1,5 @@
 return {
+  { "RRethy/base16-nvim", name = "base16-nvim", lazy = false},
   -- add git-conflict to help with merge conflicts
   { "akinsho/git-conflict.nvim", version = "*", config = true },
   {
