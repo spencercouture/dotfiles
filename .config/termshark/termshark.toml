@@ -1,17 +1,17 @@
 [main]
 altview2vertical = ''
 auto-scroll = true
-color-tsharks = ['/usr/bin/tshark']
+color-tsharks = ['/opt/homebrew/bin/tshark']
 dark-mode = true
 disable-shark-fin = true
 key-mappings = ['J jjjjjjjjjjjjjjjjjjjj', 'K kkkkkkkkkkkkkkkkkkkk']
 last-used-tshark = '/opt/homebrew/bin/tshark'
-lastupdate = '2025-04-01 13:46:17.673059 -0400 EDT m=+0.168214459'
-layout = 'mainview'
+lastupdate = '2025-08-11 09:35:45.261325 -0400 EDT m=+0.174415376'
+layout = 'altview2'
 mainview = '[{"col1":4,"col2":6,"adjust":2}]'
 packet-colors = true
-recent-files = []
+recent-files = ['/Users/scouture/Downloads/1.pcap']
 recent-filters = []
 theme-truecolor = 'colors'
-validated-tsharks = ['/opt/homebrew/bin/tshark', '/usr/bin/tshark']
+validated-tsharks = ['/opt/homebrew/bin/tshark']
 
