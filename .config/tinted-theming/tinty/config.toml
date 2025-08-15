@@ -1,7 +1,7 @@
 # Global settings
 shell = "bash -c '{}'"
 default-scheme = "base16-chalk"
-preferred-schemes = ["base16-chalk", "base16-da-one-ocean"]
+preferred-schemes = ["base16-chalk", "base16-da-one-ocean", "base16-blueforest", "base16-cupertino", "base16-dracula", "base16-edge-light", "base16-tomorrow", "base16-gruvbox-light-hard", "base16-harmonic16-dark", "base16-harmonic16-light", "base16-nord-light", "base16-summerfruit-light", "base16-pinky"]
 
 # Item configurations
 
@@ -25,5 +25,5 @@ supported-systems = ["base16"]
 name = "tmux"
 path = "https://github.com/spencercouture/tinted-tmux-pine.git"
 themes-dir = "colors"
-hook = "tmux run 2> /dev/null && bash \"$TINTY_THEME_FILE_PATH\""
+hook = "cp \"$TINTY_THEME_FILE_PATH\" ~/.config/colors.tmux ; tmux run 2> /dev/null && bash \"$TINTY_THEME_FILE_PATH\""
 supported-systems = ["base16"]
