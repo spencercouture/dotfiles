@@ -1,16 +1,16 @@
 # Global settings
 shell = "bash -c '{}'"
 default-scheme = "base16-chalk"
-preferred-schemes = ["base16-chalk", "base16-da-one-ocean", "base16-blueforest", "base16-cupertino", "base16-dracula", "base16-edge-light", "base16-tomorrow", "base16-gruvbox-light-hard", "base16-harmonic16-dark", "base16-harmonic16-light", "base16-nord-light", "base16-summerfruit-light", "base16-pinky"]
+preferred-schemes = ["base16-oxocarbon-dark", "base16-bright", "base16-blueish", "base16-framer", "base16-chalk", "base16-da-one-ocean", "base16-blueforest", "base16-cupertino", "base16-dracula", "base16-edge-light", "base16-tomorrow", "base16-gruvbox-light-hard", "base16-harmonic16-dark", "base16-harmonic16-light", "base16-nord-light", "base16-summerfruit-light", "base16-pinky", "base16-darkmoss", "base16-bright", "base16-evenok-dark"]
 
 # Item configurations
 
 # nvim works for free (due to our current config)
 
 [[items]]
-name = "alacritty"
-path = "~/.config/alacritty/themes/base16-alacritty"
-themes-dir = "colors"
+name = "tinted-terminal"
+path = "https://github.com/tinted-theming/tinted-terminal"
+themes-dir = "themes/alacritty"
 hook = "cp \"$TINTY_THEME_FILE_PATH\" ~/.config/alacritty/colors.toml"
 supported-systems = ["base16"]
 
