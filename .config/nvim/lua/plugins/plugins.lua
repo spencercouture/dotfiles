@@ -41,6 +41,7 @@ return {
   {
     -- The plugin location on GitHub
     "vimwiki/vimwiki",
+    enabled = true,
     -- The configuration for the plugin
     init = function()
       vim.g.vimwiki_list = {
